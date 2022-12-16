@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "f3cf700e-de28-4f7b-8f4e-831a114fc351",
+		"name": "TLA Program",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24187198"
+	} ,
+	"item": [
+		{
+			"name": "SdetCourse",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://tla-school-api.herokuapp.com/api/school/programs/sdetcourse",
+					"protocol": "https",
+					"host": [
+						"tla-school-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"school",
+						"programs",
+						"sdetcourse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DevCourse",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://tla-school-api.herokuapp.com/api/school/programs/devcourse",
+					"protocol": "https",
+					"host": [
+						"tla-school-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"school",
+						"programs",
+						"devcourse"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
